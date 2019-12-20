@@ -1,0 +1,163 @@
+body {
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: #fffdf9;
+}
+
+h1, h2 {
+  font-family: "Ubuntu";
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.7;
+  padding-left: 7%;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+  padding-bottom: 7%;
+  padding-top: 3%;
+  line-height: 2;
+}
+
+.coloured-section {
+  background-color: #9be3de;
+  color: #fffdf9;
+}
+
+/* Title */
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 10% 20%;
+}
+
+.title-img {
+  width: 100%;
+  border-radius: 15px;
+  position: absolute;
+  left: 9%;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Ubuntu";
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link, .navbar-item .btn {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+  color: #fffdf9 !important;
+}
+
+.navbar-item .btn:hover {
+  background-color: #beebe9;
+}
+
+.nav-link:hover {
+  color: #beebe9 !important;
+}
+
+.navbar-toggler-icon {
+  color: #fffdf9 !important;
+}
+
+/* Bio */
+#bio {
+  color: #2b2b28;
+  position: relative;
+  background-color: #FFFEFB;
+}
+
+#bio .container-fluid, #footer .container-fluid {
+  padding: 3% 20%;
+}
+
+.flags {
+  padding-top: 5%;
+}
+
+.flag-img {
+  margin: 2% 1%;
+  background-color: none;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#bio .btn {
+  background-color: #9be3de !important;
+  color: #fffdf9 !important;
+  margin: 7%;
+}
+
+#bio .btn:hover {
+  background-color: #BEEBE9 !important;
+}
+
+#bio a {
+  text-decoration: none;
+  color: #9be3de;
+}
+
+#bio a:hover {
+  color: #BEEBE9;
+}
+
+@media (max-width:991px) {
+  .title-img {
+    position: static;
+    /* left: 0px; */
+    height: 100%;
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
+  .nav-link, .navbar-item .btn {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    padding-top: 10%;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 2rem;
+  }
+}

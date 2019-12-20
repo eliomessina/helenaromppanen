@@ -1,0 +1,124 @@
+body {
+  background-color: #fffdf9;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+h1,h2 {
+  margin:2%;
+}
+
+p, ul, li {
+  color: #8f8f8f;
+  text-align: left;
+  padding: 3% 5%;
+  padding-top: 0%;
+  line-height: 1;
+  text-decoration: none;
+
+}
+p {
+  line-height: 2;
+}
+
+itle {
+  padding: 0% 5%;
+  margin: 0;
+}
+
+.container-fluid {
+  padding: 3% 7%;
+}
+
+.coloured-section {
+  background-color: #9be3de;
+}
+
+/* Navigation bar */
+
+.navbar {
+  padding: 4% 7%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Ubuntu";
+  color: #4C4B4A !important;
+  padding-left: 0 !important;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link, .navbar-item .btn {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.navbar-item .btn:hover {
+}
+
+.nav-link:hover {
+}
+
+.navbar-toggler-icon {
+}
+
+.lotus-img {
+  width: 20%;
+  float: left;
+  margin: 5%;
+  border-radius: 15px;
+  position: relative;
+}
+
+
+/* button */
+
+#palvelut .btn {
+  background-color: #9be3de !important;
+  color: #fffdf9 !important;
+  margin: 7%;
+}
+
+#palvelut .btn:hover {
+  background-color: #BEEBE9 !important;
+}
+
+
+/* contact section */
+#contact .container-fluid{
+  padding: 3% 20%;
+}
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+@media (max-width:991px) {
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 3rem;
+  }
+
+  .nav-link, .navbar-item .btn {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    padding-top: 10%;
+    font-size: 2.5rem;
+    text-align: left;
+  }
+  h2 {
+    text-align: left;
+    font-size: 2rem;
+  }
+}
