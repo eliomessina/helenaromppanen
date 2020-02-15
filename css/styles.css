@@ -63,7 +63,7 @@ p {
   padding: 0 18px;
 }
 
-.nav-link, .navbar-item .btn {
+.nav-link, .navbar-item .btn, .nav-item {
   font-size: 1.2rem;
   font-family: "Montserrat";
   font-weight: 300;
@@ -83,6 +83,14 @@ p {
 }
 
 /* Bio */
+
+/* hides the div to be replaced in the bio */
+
+.hide {
+  display: none;
+}
+
+
 #bio {
   color: #2b2b28;
   position: relative;
@@ -93,9 +101,7 @@ p {
   padding: 3% 20%;
 }
 
-.flags {
-  padding-top: 5%;
-}
+
 
 .flag-img {
   margin: 2% 1%;

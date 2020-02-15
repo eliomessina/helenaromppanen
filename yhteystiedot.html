@@ -22,35 +22,46 @@
 
 <body>
 
-  <section id="title">
 
     <!-- Nav Bar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
 
-      <a class="navbar-brand" href="index.html">Helena Romppanen</a>
+      <nav class="navbar navbar-expand-lg navbar-light">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+        <a class="navbar-brand" href="index.html">Helena Romppanen</a>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav ml-auto">
-          <li class="navbar-item">
-            <a class="nav-link" href="bio.html"> Bio </a>
-          </li>
-          <li class="navbar-item">
-            <a class="nav-link" href="movementatonement.html"> Palvelut </a>
-          </li>
-          <li class="navbar-item">
-            <button type="button" class="btn btn-outline-dark" onclick="window.location.href='yhteystiedot.html'">Yhteystiedot</button>
-          </li>
-        </ul>
-      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">
+              <a class="nav-link" href="bio.html"> Bio </a>
+            </li>
 
-  </section>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Palvelut
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="movementatonement.html">Movementatonement</a>
+                <a class="dropdown-item" href="#">Tanssi- ja liiketerapia</a>
+                <a class="dropdown-item" href="#">Työpajat ja kurssit</a>
+
+              </div>
+            </li>
+
+            <li class="navbar-item">
+              <button type="button" class="btn btn-outline-dark" onclick="window.location.href='yhteystiedot.html'">Yhteystiedot</button>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
 
 
   <!-- Contact section -->
@@ -72,25 +83,42 @@
 
       <form id="form-section" action="mailto:eliomessina@icloud.com" method="post" enctype="text/plain">
 
-        <div>
+        <div class="form-group">
             <label for="name">Your Name</label>
             <input id="name" type="text" class="form-control" placeholder="First name">
           </div>
 
-        <div class="form-group">
+          <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
         </div>
+
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Message</label>
           <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
 
-
         <div class="col-auto">
           <input type="submit">
         </div>
       </form>
+
+      <!-- <form action="mailto:eliomessina@icloud.com" method="post" enctype="text/plain">
+        <label> Your Name: </label>
+        <input type="text" name="yourName" value="">
+        <br>
+
+        <label> Email: </label>
+        <input type="email" name="yourEmail" value="">
+        <br>
+        <label>Your message: </label><br>
+        <textarea name="yourMessage" rows="10" cols="30"></textarea>
+        <br>
+        <label> Do you want to sign up to the email list? </label>
+        <input type="checkbox" name="" value=""><br>
+        <input type="submit">
+      </form> -->
+
       <!-- <div>
 
 
@@ -114,9 +142,11 @@
       <p>Helena Romppanen <br>
 
         Tarkk'ampujankatu 14 B 39<br>
+        00150 Helsinki <br>
         +358 (0) 45 637 1939<br>
         helenalle2@gmail.com <br>
       </p>
+
     </div>
 
 

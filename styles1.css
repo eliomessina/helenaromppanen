@@ -21,7 +21,7 @@ p {
   line-height: 2;
 }
 
-itle {
+title {
   padding: 0% 5%;
   margin: 0;
 }
@@ -36,9 +36,7 @@ itle {
 
 /* Navigation bar */
 
-.navbar {
-  padding: 4% 11%;
-}
+
 
 .navbar-brand {
   font-size: 2.5rem;
@@ -48,7 +46,7 @@ itle {
   padding-left: 0 !important;
 }
 
-.navbar-item {
+.navbar-item, .nav-item {
   padding: 0 18px;
 }
 
